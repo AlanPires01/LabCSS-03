@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color:#fff;
+}
+header{
+    display:flex;
+    padding-top:1rem;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #051440;
+    height:140px;
+}
+
+.cabecalho-logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+.cabecalho-link{
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+    margin-left: 30px;
+}
+.cabecalho-link a{
+    color:#fff;
+}
+
+.cabecalho-link:hover{
+    color:#449CA6;
+}
+header li{
+    margin:0px 30px 0px 30px;
+    cursor:pointer;
+    
+}
+header h3{
+    font-size: 30px;
+    color:#449CA6;
+    margin-left:10px;
+}
+
+
+
+h1{
+    text-align:center;
+    margin: 20px 0px 20px 0px;
+}
+
+figure{
+    display:flex;
+    justify-content:center;
+}
+
+figure img{
+    margin-right:30px;
+}
+
+figure img:hover{
+    transform:scale(1.05);
+    transition:0.5s all ease-in-out;
+
+}
+
+footer{
+    padding:120x 0px 150px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: #051440;
+    height:200px;
+}
+footer p{
+    text-align:center;
+    color:#449CA6;
+    margin-left: 10px;
+}
+#img-footer{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.informacoes-principal{
+    display:flex;
+    justify-content:center;
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    margin-left:30px;
+    gap:10px;
+}
+summary:after {
+    
+    content: "+";
+}
+details[open] summary:after {
+    content: "-";
+}
+
+.informacoes-secundarias{
+    display:flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+.vagas{
+    margin-left: 30px;
+}
+.informacoes-secundarias p{
+    display:inline-block;
+}
+
+.informacoes-secundarias iframe{
+    padding-right: 20px;
+}
+
+input {
+    color: #fff;
+    font-size: 28px;
+    width: 30%;
+    padding: 20px 5px 5px;
+    background-color: #051440;
+    border:none;
+    border-radius: 20px;
+    margin-bottom:  20px;;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+
+.estilo {
+    -webkit-appearance: none;
+    background:#051440 ;
+    outline: none;
+    width: 30%;
+    height: 10px;
+    border-radius: 9px;   
+}
+
+.estilo::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+
+    background: #2796ee;
+    cursor: pointer;
+}
+
+.estilo::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+
+    background: #2796ee;
+    cursor: pointer;
+}

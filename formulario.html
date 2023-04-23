@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body>
+  <header>
+    <div class="cabecalho-logo">
+        <img src="cinema.png" width="50" heigth="50"alt="icone de cinema"/>
+        <h3>Cine Pires</h3>
+    </div>
+       
+    <div class="cabecalho-link">
+        <li>
+            <a class="cabecalho-link" href="apresentacao.html">Home</a>
+        </li>
+        <li>
+            <a class="cabecalho-link" href="#">Lançamentos</a>
+        </li>
+        <li>
+            <a class="cabecalho-link" href="formulario.html">Cadastro</a>
+        </li>
+        <li>
+            <a class="cabecalho-link" href="#">Sobre</a>
+        </li>
+
+    </div>
+</header>
+  <h1 align="center">Formulário para cadastro de informações do cliente</h1>
+  <section align="center">
+    <form action="cadastro.html" method="GET">
+
+      <input type="text" name="name" placeholder="Nome do cliente" value="" />
+      <input type="email" name="email" pattern="@gmail.com" size="30"  placeholder="Email"required/>
+
+      <input type="tel" name="tel" placeholder="Telefone"/><br>
+
+     
+        <label for="mes">Mês de adesão</label>
+        <input type="month" name="month" /><br>
+  
+        <label for="num"> Número de filmes que pretende assistir na semana</label>
+        <input type="number" name="quantidade" min="1" max="7"/><br>
+  
+        <label for="color">Selcione uma cor para visualização da página</label>
+        <input type="color" name="color"/><br>
+  
+       
+  
+        <label for="cupom">Selecione uma data para utilizar o cupom de desconto</label><br>
+        <input type="datetime-local" name="time" value="2023-04-01T19:30"/><br>
+  
+        <p>Preferência de gêneros de filme</p>
+        <label for="Acao">Ação</label>
+        <input class="estilo" type="range" name="acao" value="0" min="0" max="10"/><br>
+        <label for="acao">Drama</label>
+        <input class="estilo" type="range" name="drama" value="0" min="0" max="10"/><br>
+        <label for="acao">Romance</label>
+        <input class="estilo" type="range" name="Romance" value="0" min="0" max="10"/><br>
+        <label for="acao">Comédia</label>
+        <input class="estilo" type="range" name="comedia" value="0" min="0" max="10"/><br>
+        <label for="acao">Suspense</label>
+        <input class="estilo" type="range" name="Suspense" value="0" min="0" max="10"/>
+        <br>
+     
+      
+      <a href="paginacliente.html"><h3>Página pessoal do cliente</h3></a>
+  </section>
+</body>
+<footer>
+  <img id="img-footer" src="popcorn.png" alt="imagem de pipoca"/>
+  <p>Todos os direitos reservados.</p>
+</footer>
+
+</html>
